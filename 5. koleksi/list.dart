@@ -36,6 +36,10 @@ void main(List<String> args) {
   dynamicList.removeAt(3);
   print(dynamicList);
 
+  // remove berdasarkan kondisi
+  namaSiswa.removeWhere((element) => element.contains('Budi'));
+  print(namaSiswa);
+
   dynamicList.removeLast();
   print(dynamicList);
 
